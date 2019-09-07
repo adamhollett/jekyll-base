@@ -1,0 +1,17 @@
+---
+---
+
+html {
+  font-family: system-ui, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 62.5%;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+  font-size: 2rem;
+}
+
+img, video { max-width: 100%; }

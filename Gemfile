@@ -5,9 +5,8 @@ gem "jekyll"
 group :jekyll_plugins do
 end
 
-install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
+if Gem.win_platform?
   gem "tzinfo"
   gem "tzinfo-data"
+  gem "wdm", group: :development
 end
-
-gem "wdm", :install_if => Gem.win_platform?
